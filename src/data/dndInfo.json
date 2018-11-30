@@ -1,0 +1,157 @@
+{
+	"proficiencyBonus":
+		{
+			"1":2,
+			"2":2,
+			"3":2,
+			"4":2,
+			"5":3,
+			"6":3,
+			"7":3,
+			"8":3,
+			"9":4,
+			"10":4,
+			"11":4,
+			"12":4,
+			"13":5,
+			"14":5,
+			"15":5,
+			"16":5,
+			"17":6,
+			"18":6,
+			"19":6,
+			"20":6
+		},
+	"abilities": 
+	[
+		{
+			"name": "Strength",
+			"score": 10,
+			"proficiencies": [
+				{
+					"name": "Saving",
+					"value": false
+				},
+				{
+					"name": "Athletics",
+					"value": false
+				}
+			]
+		}, {
+			"name": "Dexterity",
+			"score": 10,
+			"proficiencies": [
+				{
+					"name": "Saving",
+					"value": false
+				},
+				{
+					"name": "Acrobatics",
+					"value": false
+				},
+				{
+					"name": "Sleight of Hand",
+					"shortName": "SleightOfHand",
+					"value": false
+				},
+				{
+					"name": "Stealth",
+					"value": false
+				}
+			]
+		}, {
+			"name": "Constitution",
+			"score": 10,
+			"proficiencies": [
+				{
+					"name": "Saving",
+					"value": false
+				}
+			]
+		}, {
+			"name": "Intelligence",
+			"score": 10,
+			"proficiencies": [
+				{
+					"name": "Saving",
+					"value": false
+				},
+				{
+					"name": "Arcana",
+					"value": false
+				},
+				{
+					"name": "History",
+					"value": false
+				},
+				{
+					"name": "Investigation",
+					"value": false
+				},
+				{
+					"name": "Nature",
+					"value": false
+				},
+				{
+					"name": "Religion",
+					"value": false
+				}
+			]
+		}, {
+			"name": "Wisdom",
+			"score": 10,
+			"proficiencies": [
+				{
+					"name": "Saving",
+					"value": false
+				},
+				{
+					"name": "Animal Handling",
+					"shortName": "AnimalHandling",
+					"value": false
+				},
+				{
+					"name": "Insight",
+					"value": false
+				},
+				{
+					"name": "Medicine",
+					"value": false
+				},
+				{
+					"name": "Perception",
+					"value": false
+				},
+				{
+					"name": "Survival",
+					"value": false
+				}
+			]
+		}, {
+			"name": "Charisma",
+			"score": 10,
+			"proficiencies": [
+				{
+					"name": "Saving",
+					"value": false
+				},
+				{
+					"name": "Deception",
+					"value": false
+				},
+				{
+					"name": "Intimidation",
+					"value": false
+				},
+				{
+					"name": "Performance",
+					"value": false
+				},
+				{
+					"name": "Persuasion",
+					"value": false
+				}
+			]
+		}
+	]
+}
