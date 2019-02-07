@@ -29,7 +29,7 @@
 			"score": 10,
 			"proficiencies": [
 				{
-					"name": "Saving",
+					"name": "*Saving Throw",
 					"value": false
 				},
 				{
@@ -42,7 +42,7 @@
 			"score": 10,
 			"proficiencies": [
 				{
-					"name": "Saving",
+					"name": "*Saving Throw",
 					"value": false
 				},
 				{
@@ -64,7 +64,7 @@
 			"score": 10,
 			"proficiencies": [
 				{
-					"name": "Saving",
+					"name": "*Saving Throw",
 					"value": false
 				}
 			]
@@ -73,7 +73,7 @@
 			"score": 10,
 			"proficiencies": [
 				{
-					"name": "Saving",
+					"name": "*Saving Throw",
 					"value": false
 				},
 				{
@@ -102,7 +102,7 @@
 			"score": 10,
 			"proficiencies": [
 				{
-					"name": "Saving",
+					"name": "*Saving Throw",
 					"value": false
 				},
 				{
@@ -132,7 +132,7 @@
 			"score": 10,
 			"proficiencies": [
 				{
-					"name": "Saving",
+					"name": "*Saving Throw",
 					"value": false
 				},
 				{

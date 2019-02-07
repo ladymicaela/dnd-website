@@ -1,0 +1,18 @@
+{
+	"allIds": [
+		"Barbarian",
+		"Bard",
+		"Cleric"
+	],
+
+	"": [],
+	"Barbarian": ["Berserker"],
+	"Bard": ["Lore", "Valor"],
+	"Cleric": ["Knowledge",
+		"Life",
+		"Light",
+		"Nature",
+		"Tempest",
+		"Trickery",
+		"War"]
+}

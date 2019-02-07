@@ -87,7 +87,7 @@ class Ability extends Component {
 				border: 'solid',
 				padding: 10,
 				margin: 5,
-				width: 260,
+				width: 275,
 				display: 'flex',
 				flexDirection: 'row',
 			},
@@ -156,8 +156,14 @@ class Ability extends Component {
 export default Ability
 
 /* Next steps
+DONE:
 1. Add Level Selector
 2. Make Proficiency Bonus dependent on Level Selector
+3. add favicon
+
+TO-DO:
+1. Add passive perception
+2. maybe make proficiency bonus not show 2 when level selector is on "select level" and a lvl hasn't been selected yet
 3. Add AC
 4. Add armor selector drop-down which updates AC
 5. Add Weapon selector drop-down and stats
