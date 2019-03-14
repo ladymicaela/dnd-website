@@ -1,18 +1,82 @@
 {
-	"allIds": [
+	"allClasses": [
 		"Barbarian",
 		"Bard",
-		"Cleric"
+		"Cleric",
+		"Druid",
+		"Fighter",
+		"Monk",
+		"Paladin",
+		"Ranger",
+		"Rogue",
+		"Sorcerer",
+		"Warlock",
+		"Wizard"
 	],
 
 	"": [],
-	"Barbarian": ["Berserker"],
-	"Bard": ["Lore", "Valor"],
-	"Cleric": ["Knowledge",
+	"Barbarian": [
+		"Berserker",
+		"Totem Warrior"
+	],
+	"Bard": [
+		"Lore", 
+		"Valor"
+	],
+	"Cleric": [
+		"Knowledge",
 		"Life",
 		"Light",
 		"Nature",
 		"Tempest",
 		"Trickery",
-		"War"]
+		"War"
+	],
+	"Druid": [
+		"Land",
+		"Moon"
+	],
+	"Fighter": [
+		"Champion",
+		"Battle Master",
+		"Eldritch Knight"
+	],
+	"Monk": [
+		"Open Hand",
+		"Shadow",
+		"Four Elements"
+	],
+	"Paladin": [
+		"Devotions",
+		"Ancients",
+		"Vengeance"
+	],
+	"Ranger": [
+		"Hunter",
+		"Beast Master"
+	],
+	"Rogue": [
+		"Thief",
+		"Assassin",
+		"Arcane Trickster"
+	],
+	"Sorcerer": [
+		"Draconic Bloodline",
+		"Wild Magic"
+	],
+	"Warlock": [
+		"Archfey",
+		"Fiend",
+		"Great Old One"
+	],
+	"Wizard": [
+		"Abjuration",
+		"Conjuration",
+		"Divination",
+		"Enchantment",
+		"Evocation",
+		"Illusion",
+		"Necromancy",
+		"Transmutation"
+	]
 }

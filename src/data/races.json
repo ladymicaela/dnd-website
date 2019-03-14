@@ -1,0 +1,39 @@
+{
+	"allRaces": [
+		"Dragonborn",
+		"Dwarf",
+		"Elf",
+		"Gnome",
+		"Half Elf",
+		"Half Orc",
+		"Halfling",
+		"Human",
+		"Tiefling"
+	],
+
+	"": [],
+	"Dragonborn": [],
+	"Dwarf": [
+		"Hill", 
+		"Mountain"
+	],
+	"Elf": [
+		"High",
+		"Wood",
+		"Drow"
+	],
+	"Gnome": [
+		"Forest",
+		"Rock"
+	],
+	"Half Elf": [],
+	"Half Orc": [],
+	"Halfling": [
+		"Lightfoot",
+		"Stout"
+	],
+	"Human": [],
+	"Tiefling": [
+		"Infernal"
+	]
+}

@@ -160,14 +160,14 @@ DONE:
 1. Add Level Selector
 2. Make Proficiency Bonus dependent on Level Selector
 3. add favicon
+4. Add Race + Subrace selector drop-down (auto complete???) (pick race then just show subrace options)
+5. Add Class + Subclass selector drop-down (pick class then just show subclass options)
+6. maybe make proficiency bonus not show 2 when level selector is on "select level" and a lvl hasn't been selected yet
 
 TO-DO:
-1. Add passive perception
-2. maybe make proficiency bonus not show 2 when level selector is on "select level" and a lvl hasn't been selected yet
+1. Add passive perception (currently stubbed)
 3. Add AC
-4. Add armor selector drop-down which updates AC
+4. Add armor selector drop-down which updates AC (have no armor stat, and then stat with armor and stat with shield so you can see the breakdown)
 5. Add Weapon selector drop-down and stats
 6. Add HP based on level times avg hit die value
-7. Add Race + Subrace selector drop-down (auto complete???) (pick race then just show subrace options)
-8. Add Class + Subclass selector drop-down (pick class then just show subclass options)
 */
