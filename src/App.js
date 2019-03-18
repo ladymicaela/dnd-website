@@ -20,6 +20,7 @@ class App extends Component {
 		subRaceSelected: '',
 		subRaceCurrent: null,
 		subClassCurrent: null,
+		characterInfo: { ...fullInfo },
 	}
 
 	handleLevelChange = event => {
@@ -52,7 +53,7 @@ class App extends Component {
 	}
 
 	render() {
-		const bonus = fullInfo.proficiencyBonus[this.state.level]
+		const bonus = this.state.characterInfo.proficiencyBonus[this.state.level]
 		const passive = 'stubbed'
 		const styles = {
 			pbonus: {
@@ -152,7 +153,7 @@ class App extends Component {
 						<h2>Level</h2>
 						<Select
 							value={this.state.level}
-							options={Object.keys(fullInfo.proficiencyBonus)}
+							options={Object.keys(this.state.characterInfo.proficiencyBonus)}
 							handleSelection={this.handleLevelChange}
 							placeholder={'Select Level'}
 						/>
@@ -168,7 +169,7 @@ class App extends Component {
 					<h3>Passive Perception</h3>
 					<div style={styles.passivescore}>{passive}</div>
 				</div>
-				{fullInfo.abilities.map(ability => (
+				{this.state.characterInfo.abilities.map(ability => (
 					<Ability input={ability} proficiencyBonus={bonus} />
 				))}
 			</div>
