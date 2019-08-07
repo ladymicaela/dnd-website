@@ -9,7 +9,7 @@ import newRaces from './data/races.json'
 // Components
 import Ability from './components/Ability'
 import Select from './components/Select'
-
+// test
 class App extends Component {
 	state = {
 		level: '',
